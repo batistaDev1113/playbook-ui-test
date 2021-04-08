@@ -1,5 +1,6 @@
 {
   "name": "react",
+  "homepage": "http://batistaDev1113.github.io/playbook-ui-test",
   "version": "1.0.0",
   "description": "Development challenge for home remodeling group",
   "keywords": [
@@ -9,6 +10,7 @@
   "main": "src/index.js",
   "dependencies": {
     "flow": "0.2.3",
+    "gh-pages": "^3.1.0",
     "playbook-ui": "8.3.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",
@@ -20,6 +22,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

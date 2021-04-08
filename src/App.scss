@@ -19,6 +19,7 @@ body {
 }
 .app-container {
   max-width: 100%;
+  overflow: hidden;
 }
 
 .navbar-container,
@@ -41,7 +42,7 @@ body {
     padding-bottom: 20px;
     display: flex;
     flex-direction: row;
-    align-items: end;
+    align-items: flex-start;
     justify-content: space-between;
   }
 
@@ -496,9 +497,122 @@ span.card-header-number {
   }
 }
 
-// media queries
-@media only screen and (min-width: 768px) {
+/***********************************************
+******* media queries  ************************/
+
+// ipad
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .middle {
     width: 27% !important;
+  }
+
+  .esculation-inner-container {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    .column-esculation {
+      width: 30%;
+      font-size: 1rem;
+      margin-bottom: 25px;
+    }
+  }
+
+  .inner-pipeline-container {
+    max-width: 80%;
+    overflow: hidden;
+    flex-direction: column;
+
+    .inner-section-pipeline-left {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+
+    .inner-section-pipeline-right {
+      width: 100%;
+
+      .inner-section1,
+      .inner-section2,
+      .inner-section4 {
+        width: 67% !important;
+      }
+
+      .inner-section3 {
+        width: 80% !important;
+        padding-left: 40px;
+      }
+    }
+  }
+}
+
+//small devices - iphone
+
+@media only screen and (max-width: 600px) {
+  section.top-nav {
+    max-width: 80% !important;
+    display: flex !important;
+    justify-content: center !important;
+
+    div:last-child {
+      padding-left: 5px !important;
+    }
+  }
+
+  .dashboard-commerce aside {
+    width: 100%;
+  }
+  .cards-middle-section {
+    flex-wrap: wrap;
+
+    .middle {
+      width: 100% !important;
+    }
+  }
+
+  .inner-pipeline-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    .inner-section-pipeline-left {
+      width: 100%;
+      margin-bottom: 10px;
+
+      .pipeline-card {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+        display: flex;
+        height: 40px;
+        // flex-direction: column;
+        // align-items: center;
+        // justify-content: space-evenly;
+
+        .pb_body_kit_lighter:first-of-type {
+          position: absolute;
+          top: 5%;
+          width: 100%;
+          margin-left: 20px;
+        }
+        * {
+          max-width: 100%;
+        }
+
+        :nth-child(2) {
+          max-width: 50%;
+        }
+      }
+    }
+  }
+
+  .inner-section-pipeline-right {
+    width: 100%;
+
+    .inner-section1,
+    .inner-section2,
+    .inner-section3,
+    .inner-section4 {
+      width: 100% !important;
+      display: flex;
+      flex-direction: column;
+    }
   }
 }
