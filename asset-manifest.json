@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/playbook-ui-test/static/css/main.41a5b900.chunk.css",
+    "main.js": "/playbook-ui-test/static/js/main.d2347b17.chunk.js",
+    "main.js.map": "/playbook-ui-test/static/js/main.d2347b17.chunk.js.map",
+    "runtime~main.js": "/playbook-ui-test/static/js/runtime~main.57f689fd.js",
+    "runtime~main.js.map": "/playbook-ui-test/static/js/runtime~main.57f689fd.js.map",
+    "static/css/2.b4e37009.chunk.css": "/playbook-ui-test/static/css/2.b4e37009.chunk.css",
+    "static/js/2.bd0b7057.chunk.js": "/playbook-ui-test/static/js/2.bd0b7057.chunk.js",
+    "static/js/2.bd0b7057.chunk.js.map": "/playbook-ui-test/static/js/2.bd0b7057.chunk.js.map",
+    "index.html": "/playbook-ui-test/index.html",
+    "precache-manifest.3e7385c2dac241963c4ad404de515e8f.js": "/playbook-ui-test/precache-manifest.3e7385c2dac241963c4ad404de515e8f.js",
+    "service-worker.js": "/playbook-ui-test/service-worker.js",
+    "static/css/2.b4e37009.chunk.css.map": "/playbook-ui-test/static/css/2.b4e37009.chunk.css.map",
+    "static/css/main.41a5b900.chunk.css.map": "/playbook-ui-test/static/css/main.41a5b900.chunk.css.map"
+  }
+}
