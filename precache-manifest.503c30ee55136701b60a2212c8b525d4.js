@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d1f601a3f35343201dc215211070fc27",
+    "revision": "55242f00ccb0801aa1c78d49bc016181",
     "url": "/playbook-ui-test/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/playbook-ui-test/static/css/2.b4e37009.chunk.css"
   },
   {
-    "revision": "3b758da4fc9d13a0f380",
-    "url": "/playbook-ui-test/static/css/main.41a5b900.chunk.css"
+    "revision": "7a9d24f4820b29f22341",
+    "url": "/playbook-ui-test/static/css/main.f014a510.chunk.css"
   },
   {
     "revision": "aa768fc397e61b3f2188",
     "url": "/playbook-ui-test/static/js/2.bd0b7057.chunk.js"
   },
   {
-    "revision": "3b758da4fc9d13a0f380",
+    "revision": "7a9d24f4820b29f22341",
     "url": "/playbook-ui-test/static/js/main.d2347b17.chunk.js"
   },
   {
