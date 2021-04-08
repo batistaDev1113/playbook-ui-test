@@ -91,7 +91,7 @@ const Navbar = () => {
           <Flex paddingLeft="0" paddingRight="md" spacing="between">
             <FlexItem>
               <Body>
-                <Nav link="#" orientation="horizontal">
+                <Nav class="top-nav-submenu" link="#" orientation="horizontal">
                   <NavItem link="#" text="Dashboard" active />
                   <NavItem link="#" text="Products" />
                   <NavItem link="#" text="In Progress" />
@@ -105,32 +105,6 @@ const Navbar = () => {
       </Background>
       <SectionSeparator />
     </div>
-
-    // <div className="navbar-container">
-    //   <Background backgroundColor="white">
-    //     <Body>
-    //       {/* <Nav orientation="horizontal" className="parent-nav">
-    //         <NavItem link="#" text="Dashboard" active />
-    //         <NavItem link="#" text="Products" />
-    //         <NavItem link="#" text="In Progress" />
-    //         <NavItem link="#" text="Settings" />
-    //       </Nav> */}
-    //     </Body>
-    //   </Background>
-    //   <SectionSeparator />
-    //   {/* <Nav>
-    //     <NavItem iconLeft="bar" text="PB&J" />
-    //     <NavItem iconRight="angle-down">
-    //       <User
-    //         align="left"
-    //         avatarUrl="https://s3-hq-f5.powerhrg.com/nitro-production/avatars/55553/badge/business-technology-jonathan-zazula.jpg?AWSAccessKeyId=IWSW00NEQHMEYQTLZ7E9&Signature=S0EN3l5sfIr7yk442Q2MeledXGc%3D&Expires=3161514974"
-    //         name="Jon Zazula"
-    //         orientation="horizontal"
-    //         size="sm"
-    //       />
-    //     </NavItem>
-    //   </Nav> */}
-    // </div>
   );
 };
 

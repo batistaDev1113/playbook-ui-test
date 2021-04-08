@@ -45,6 +45,25 @@ body {
   max-width: 80%;
   margin: auto;
 }
+.navbar-container .bottom-nav ul li,
+.dashboard-container .bottom-nav ul li,
+.esculation-container .bottom-nav ul li,
+.pipeline-container .bottom-nav ul li {
+  max-width: 25% !important;
+}
+.navbar-container .bottom-nav ul li a,
+.dashboard-container .bottom-nav ul li a,
+.esculation-container .bottom-nav ul li a,
+.pipeline-container .bottom-nav ul li a {
+  padding-left: 5px !important;
+  width: 100%;
+}
+.navbar-container .bottom-nav ul li a :first-of-type,
+.dashboard-container .bottom-nav ul li a :first-of-type,
+.esculation-container .bottom-nav ul li a :first-of-type,
+.pipeline-container .bottom-nav ul li a :first-of-type {
+  padding-left: 0% !important;
+}
 .navbar-container .esculation-inner-container,
 .dashboard-container .esculation-inner-container,
 .esculation-container .esculation-inner-container,
