@@ -14,21 +14,7 @@ import {
   Icon,
 } from "playbook-ui";
 
-// const toggleClass = () => {
-//   //   const active = document.getElementsByClassName("submenu");
-//   const parent = document.querySelectorAll(".parent-nav > * ");
-//   const child_nodes = parent.childNodes;
-//   parent.forEach((e) => {
-//     e.addEventListener("click", (elem) => {
-//       console.log(elem.target);
-//     });
-//   });
-// };
 const Navbar = () => {
-  //  useEffect(() => {
-  //     toggleClass();
-  //   }, []);
-
   return (
     <div className="navbar-container">
       <Background
