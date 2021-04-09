@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/playbook-ui-test/static/css/main.d4fb3700.chunk.css",
+    "main.css": "/playbook-ui-test/static/css/main.2fdfbe0b.chunk.css",
     "main.js": "/playbook-ui-test/static/js/main.de4f9eaa.chunk.js",
     "main.js.map": "/playbook-ui-test/static/js/main.de4f9eaa.chunk.js.map",
     "runtime~main.js": "/playbook-ui-test/static/js/runtime~main.57f689fd.js",
@@ -9,9 +9,9 @@
     "static/js/2.bd0b7057.chunk.js": "/playbook-ui-test/static/js/2.bd0b7057.chunk.js",
     "static/js/2.bd0b7057.chunk.js.map": "/playbook-ui-test/static/js/2.bd0b7057.chunk.js.map",
     "index.html": "/playbook-ui-test/index.html",
-    "precache-manifest.c25a8157633a183786f249384f546c14.js": "/playbook-ui-test/precache-manifest.c25a8157633a183786f249384f546c14.js",
+    "precache-manifest.e0bfa3ee99f31b272b856112416b9f4c.js": "/playbook-ui-test/precache-manifest.e0bfa3ee99f31b272b856112416b9f4c.js",
     "service-worker.js": "/playbook-ui-test/service-worker.js",
     "static/css/2.b4e37009.chunk.css.map": "/playbook-ui-test/static/css/2.b4e37009.chunk.css.map",
-    "static/css/main.d4fb3700.chunk.css.map": "/playbook-ui-test/static/css/main.d4fb3700.chunk.css.map"
+    "static/css/main.2fdfbe0b.chunk.css.map": "/playbook-ui-test/static/css/main.2fdfbe0b.chunk.css.map"
   }
 }
