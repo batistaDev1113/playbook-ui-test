@@ -1,5 +1,4 @@
 import React from "react";
-import "../App.css";
 import { Card, Title, Body, ProgressSimple, DashboardValue } from "playbook-ui";
 import { GrTicket, GrNotes } from "react-icons/gr";
 import { CgCloseR } from "react-icons/cg";

@@ -1,5 +1,4 @@
 import React from "react";
-import "../App.css";
 import { Title, Body, Card, CircleIconButton, LineGraph } from "playbook-ui";
 import { AiOutlineArrowUp, AiOutlineArrowDown } from "react-icons/ai";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-// import "./index.css";
 import App from "./App";
+import "./App.css";
 
 import "playbook-ui/dist/fonts/fontawesome-min";
 import "playbook-ui/dist/fonts/regular-min";

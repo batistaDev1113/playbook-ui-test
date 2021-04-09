@@ -1,5 +1,4 @@
 import React from "react";
-import "../App.css";
 import { Body, Card, User, Avatar } from "playbook-ui";
 import { FaAngleRight } from "react-icons/fa";
 
