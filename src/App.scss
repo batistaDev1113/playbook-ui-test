@@ -132,6 +132,12 @@ body {
   }
 }
 
+.bottom-nav ul li:nth-child(2) {
+  a {
+    padding-right: 10px !important;
+  }
+}
+
 // commerce dashboard styling
 .pb_avatar_kit_sm {
   margin-right: 5px !important;
@@ -574,12 +580,20 @@ span.card-header-number {
   }
   .cards-middle-section {
     flex-wrap: wrap;
+    height: auto !important;
+
+    .linear-graph-card {
+      margin-top: 30px;
+    }
 
     .middle {
       width: 100% !important;
     }
   }
 
+  .card-container-top {
+    background: transparent !important;
+  }
   .inner-pipeline-container {
     display: flex;
     flex-direction: column;
@@ -648,6 +662,19 @@ span.card-header-number {
 
       :last-child {
         text-align: center;
+      }
+    }
+  }
+
+  .esculation-inner-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    .column-esculation {
+      width: 100%;
+
+      .esculation {
+        margin-bottom: 20px;
       }
     }
   }
