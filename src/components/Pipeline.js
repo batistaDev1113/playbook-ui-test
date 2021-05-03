@@ -115,6 +115,7 @@ function Pipeline() {
         </div>
       </div>
     </div>
+    /*end of line */
   );
 }
 
